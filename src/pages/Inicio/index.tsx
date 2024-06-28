@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import cardapio from 'data/cardapio.json';
 import styles from './Inicio.module.scss';
 
@@ -10,7 +11,7 @@ export default function Inicio() {
       <h3 className={styles.titulo}>
         Recomendações da cozinha
       </h3>
-      <div className={styles.recomenddos}>
+      <div className={styles.recomendados}>
         {pratosRecomendados.map(item => (
           <div key={item.id} className={styles.recomendado}>
             <div className={styles.recomendado__imagem}>
